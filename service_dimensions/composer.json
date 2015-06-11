@@ -1,0 +1,13 @@
+{
+    "name": "example-data-storage/service_etl",
+    "repositories": [
+        {
+            "type": "vcs",
+            "url": "https://github.com/bozerkins/example-data-storage-components"
+        }
+    ],
+    "require": {
+        "bozerkins/example-data-storage-components": "dev-master"
+
+    }
+}

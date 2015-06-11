@@ -1,0 +1,14 @@
+{
+    "name": "example-data-storage/data_source",
+    "repositories": [
+        {
+            "type": "vcs",
+            "url": "https://github.com/bozerkins/example-data-storage-components"
+        }
+    ],
+    "require": {
+        "bozerkins/example-data-storage-components": "dev-master",
+        "fzaninotto/faker": "*"
+
+    }
+}
