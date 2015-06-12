@@ -2,7 +2,11 @@
 
 namespace ServiceDimensions;
 
-class DaysCounterModel
-{
+use DataStorageComponent\Model;
 
+class DaysCounterModel extends Model
+{
+	protected $primaryKey = array(
+		'days'
+	);
 }

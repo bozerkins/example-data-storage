@@ -2,7 +2,11 @@
 
 namespace ServiceDimensions;
 
-class DateModel
+use DataStorageComponent\Model;
+
+class DateModel extends Model
 {
-	
+	protected $primaryKey = array(
+		'date'
+	);
 }

@@ -2,7 +2,11 @@
 
 namespace ServiceDimensions;
 
-class ProcessModel
-{
+use DataStorageComponent\Model;
 
+class ProcessModel extends Model
+{
+	protected $primaryKey = array(
+		'proc_id'
+	);
 }

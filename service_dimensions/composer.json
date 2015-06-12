@@ -8,6 +8,8 @@
     ],
     "require": {
         "bozerkins/example-data-storage-components": "dev-master"
-
+    },
+    "autoload": {
+        "psr-4": {"ServiceDimensions\\": "src/"}
     }
 }
